@@ -2,8 +2,6 @@
 
 
 ### Favorite:
-color: Blue
-
-animal: Dogs
-
-number: 42
+- Color: Blue
+- Animal: Dogs
+- Number: 42
