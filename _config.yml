@@ -1,3 +1,5 @@
 theme: jekyll-theme-midnight
 title: Practical Web Dev
 description: Home Page
+github:
+  is_project_page: false
