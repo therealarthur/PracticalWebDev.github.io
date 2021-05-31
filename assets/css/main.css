@@ -179,7 +179,8 @@ body {
 
 html {
   box-sizing: border-box;
-  height: 2000px;
+  height: auto;
+  margin-bottom: 0px;
 }
 
 *,
