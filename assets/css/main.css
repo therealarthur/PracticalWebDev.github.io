@@ -197,7 +197,7 @@ body {
   background-image: url("images/overlay.png"),
     -ms-linear-gradient(45deg, #58f260 15%, #5f4d93 85%);
   background-image: url("images/overlay.png"),
-    linear-gradient(45deg, #0b8793 15%, #360033 85%);
+    linear-gradient(45deg, #0b8793 15%, #9100ca 85%);
 }
 
 body.is-preload *,
