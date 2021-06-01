@@ -1,21 +1,4 @@
-/*style sheet
-<div class="container-fluid, page_navigation">
-  <div class="row">
-    <div class="col">
-      <a href="https://therealarthur.github.io/PracticalWebDev.github.io/">Home</a>
-    </div>
-    <div class="col">
-      <a href="https://therealarthur.github.io/PracticalWebDev.github.io/arthur">Arthur Mouradian</a>
-    </div>
-    <div class="col">
-      <a href="#">Fourcan Abdullah</a>
-    </div>
-    <div class="col">
-      <a href="#">Participent 3</a>
-    </div>
-  </div>
-  </div>
-*/
+
 .bod{
     background-image: url(images/background2.jpg);
 }
