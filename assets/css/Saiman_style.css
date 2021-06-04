@@ -1,124 +1,124 @@
 html {
-    min-height: 100%;
     background-image: url(images/background_img.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
+    min-height: 100%;
 }
  
-
+/* for main content part*/
 .content {
     margin-top:10px;
     margin-left: 30px;
     margin-right: 30px;
 }
+
 /* for menu */
 .menu {
-   /* background-color:#f55c47;*/
-   background-color:#39a9cb;
+    background-color:#39a9cb;
+    border-radius: 30px;
     font-weight: bold;
     height: 2em;
-    width: 10 px;
-    padding:20px;
     margin-left: 30px;
     margin-right: 30px;
-    border-radius: 30px;
-}
-.menu ul{
-    margin: auto auto auto auto;
-   /* display: flex; */  
-    justify-content: space-between;
-    overflow: hidden;
-    list-style-type: none;
-}
-.menu li{
-    width: 2 em;
-    height: 100%;
-    float:left;
+    padding:20px;
+    width: 10 px;
     
 }
 
+.menu ul{
+    list-style-type: none;
+    margin: auto auto auto auto;
+   /* display: flex; */  
+    overflow: hidden;
+    justify-content: space-between;
+    
+}
+
+.menu li{
+    float:left; 
+    height: 100%;
+    width: 2 em;
+}
+
 .menu li a {
-    text-decoration: none; 
-    padding: 5px 20px 5px 20px; 
-    margin-right: 20px;
     background-color: #39a9cb;
     color: black;
-    text-align: center;
     display:block;
+    margin-right: 20px;
+    padding: 5px 20px 5px 20px; 
+    text-decoration: none; 
+    text-align: center;
 }
 .menu li a:hover {
     background-color: grey;
 }
 
-
-/*for hr*/
-
-/* for divs
-*/
+/* for divs */
 .color {
     background-color: #fdfaf6;
-    width : 50%;
-    margin: 100px auto 100 px auto;
-    text-align: left;
+    display:inline-block;
     line-height: 2;
+    margin: 100px auto 100 px auto;
     padding-bottom: 20px;
     padding-top: 20px;
     padding-right: 25%;
     padding-left: 25%;
-    display:inline-block;
+    text-align: left;
+    width : 50%;
 }
 .animal {
     background-color: #5e8b7e;
-    width : 50%;
-    margin: 100px auto 100 px auto;
-    text-align: left;
+    display:inline-block;
     line-height: 2;
+    margin: 100px auto 100 px auto;
     padding-bottom: 20px;
     padding-top: 20px;
     padding-right: 25%;
     padding-left: 25%;
-    display:inline-block;
+    text-align: left;
+    width : 50%; 
 }
 .number {
     background-color: #39a9cb;
-    width : 50%;
-    margin: 100px auto 100 px auto;
-    text-align: left;
+    display:inline-block;
     line-height: 2;
+    margin: 100px auto 100 px auto;
     padding-bottom: 20px;
     padding-top: 20px;
     padding-right: 25%;
     padding-left: 25%;
-    display:inline-block;
+    text-align: left; 
+    width : 50%;
 }
 
 /* for images*/
 .sunset {
-    margin-right:30%;
     float:left;
     width:25%;
-
+    margin-right:30%;
 }
+
 .eagle {
+    float:right;
+    width:25%;
     margin-right:30%;
     margin-left: 70px;
     margin-top: 5px;
-    float:right;
-    width:25%;
-
 }
+
 .seven {
-    margin-right:30%;
     float:left;
     width:25%;
-
+    margin-right:30%;
 }
 
+/*for paragraph tag*/
 p{
     color: black;
     font-weight: bold;
 }
+/*for hr tag*/
 hr{
-    color:blue;
+    color:black;
 }
